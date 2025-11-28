@@ -1,0 +1,177 @@
+1. Product Essence
+
+A web-based financial coordination tool for recurring Pickleball sessions that transparently manages shared costs, clarifies real-time balances per member, and tracks financial positions over time to support fair, low-friction group dynamics.
+
+2. Core Problem
+
+The group lacks:
+
+A persistent individual financial view
+
+Temporal insight into payment behavior
+
+Structured accountability over time
+
+This produces delayed settlements, memory bias, and interpersonal discomfort.
+
+3. Updated Product Objective
+
+To deliver a system that:
+
+Computes fair session-based cost splits
+
+Displays real-time personal financial standing
+
+Tracks owed and owing trends over time
+
+Preserves social harmony via neutral visualization
+
+4. Core Functional Architecture
+4.1 Session Layer
+
+Create Pickleball session
+
+Log expenses (court, water, balls, etc.)
+
+Assign payer
+
+Auto-split equally among participants
+
+Generate session ledger
+
+4.2 Member Dashboard Layer (Key Addition)
+
+Each user has a personalized dashboard displaying:
+
+Financial Status Summary
+
+Total amount to pay
+
+Total amount to receive
+
+Net balance position (positive / negative)
+
+Debt Breakdown
+
+List of who the member owes
+
+List of who owes the member
+
+Amount per relationship
+
+Time View
+
+Balance by week / month
+
+Payment history timeline
+
+Outstanding duration per debt
+
+5. Time Tracking System
+Time Dimensions Captured
+
+Session date
+
+Payment date
+
+Debt creation timestamp
+
+Debt age (days outstanding)
+
+Time-Based Insights
+
+Oldest unpaid balance
+
+Repayment frequency
+
+Average settlement time
+
+Financial trend over time
+
+6. Vibe Intent (Emotional Objective)
+
+Primary emotional targets:
+
+Fairness
+
+Control
+
+Transparency
+
+Calm accountability
+
+Psychological safety
+
+7. Vibe Attributes
+Emotional Goal	Design Translation
+Control	Clear hierarchy, structured layout
+Transparency	Open data visibility, no hidden metrics
+Calm accountability	Non-judgmental tone, soft indicators
+Trust	Predictable flows, consistent visuals
+8. Dashboard Vibe Direction
+Visual Aesthetic
+
+Structured with breathing space
+
+Calm, analytical tone
+
+Muted neutral backdrop with signal highlights
+
+Emphasis on clarity over emotional triggers
+
+Interaction Vibe
+
+Status indicators instead of warnings
+Example microcopy:
+
+“Balance currently unsettled for 4 sessions”
+
+“You are in a receiving position of 250,000 VND”
+
+Time indicators phrased factually, not critically:
+
+“Outstanding since 12 Apr 2025”
+
+“Average settlement time: 3.2 days”
+
+9. Dashboard Information Hierarchy
+
+Net Position (Hero Metric)
+
+Amount To Pay / To Receive
+
+Debt Relationships
+
+Time Status & Trends
+
+Session History
+
+10. Vibe Rules for Time Representation
+
+Avoid red/green moral signals
+
+Use neutral progress indicators
+
+Represent time as informative, not accusatory
+
+Prioritize calm progression visuals over countdown pressure
+
+11. Experience Principles
+
+No shame mechanics
+
+System-first communication
+
+Data clarity before emotion
+
+Gentle nudge, never pressure
+
+12. Success Indicators
+
+Members check dashboards without hesitation
+
+Balances are settled faster
+
+Reduced interpersonal reminders
+
+Increased trust in system neutrality
